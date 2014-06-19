@@ -1,0 +1,58 @@
+{
+  "name": "machinist-js-mongoose",
+  "description": "Implementation of MongoDB/Mongoose DataStore for machinist-js project for Node and JavaScript projects",
+  "keywords": [
+    "testing",
+    "node",
+    "machinist",
+    "fixtures",
+    "data",
+    "tests",
+    "MongoDB",
+    "mongoose"
+  ],
+  "version": "0.1.0-alpha",
+  "homepage": "http://github.com/derptest/machinist-js-mongoose",
+  "author": "Warner Onstine <warner@warneronstine.com> (http://warneronstine.com)",
+  "contributors": [
+    "Adam Englander <adam.englander@coupla.com> (http://adamknowsstuff.com)",
+    "Warner Onstine <warner@warneronstine.com> (http://www.warneronstine.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derptest/machinist-js-mongoose.git"
+  },
+  "bugs": {
+    "url": "http://github.com/derptest/machinist-js-mongoose/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/",
+  "engines": {
+    "node": "0.6 || 0.8 || 0.10 || 0.11"
+  },
+  "dependencies" : {
+    "machinist-js": "git://github.com/derptest/machinist-js",
+    "mongoose": "*",
+    "mongodb": "*",
+    "q": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-mocha": "*",
+    "gulp-jshint": "*",
+    "gulp-exit":"*",
+    "mocha": "*",
+    "should": "*",
+    "blanket": "*",
+    "node-uuid": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/derptest/machinist-js-mongoose/LICENSE"
+    }
+  ],
+  "optionalDependencies": {}
+}
