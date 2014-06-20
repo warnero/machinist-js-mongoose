@@ -33,7 +33,7 @@
     "node": "0.6 || 0.8 || 0.10 || 0.11"
   },
   "dependencies" : {
-    "machinist-js": "git://github.com/derptest/machinist-js",
+    "machinist-js": "git://github.com/derptest/machinist-js#0.1.0",
     "mongoose": "*",
     "mongodb": "*",
     "q": "*"
